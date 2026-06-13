@@ -1,0 +1,16 @@
+.columnsContainer {
+  display: flex;
+  gap: 20px;
+  padding: 24px;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.4);
+  min-height: calc(100vh - 64px);
+}
+
+
+.columnsContainer > div {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
